@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<head>
+	<title>About Us</title>
+	<meta charset="UTF-8">
+	<title>MY PROFILE</title>
+<link rel="stylesheet" href="CSS/bootstrap.css">
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+	body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover; }
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:deeppink;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+	.img-container{
+		text-align:center;
+		font-size:20px;
+		color:pink;
+		background-color:black;
+	} 
+	.img-container ul {
+		width:400px;;
+		margin:0 auto;
+		list-style-position:inside;
+	}
+	.img-container li {
+		text-align:center;
+	}
+
+	.b{
+	text-align:center;
+	font-size:10px;
+	color:pink;
+	background-color:black;}
+	#para1 {
+		color:gold;
+	}
+	
+	</style>
+	
+	<script type=“text/javascript”> 
+function print_current_page()
+{
+window.print();
+}
+</script> 
+	</head>
+	<body>
+<div class="topnav" id="myTopnav">
+  <a href="mainpage.html" ><i class="fa fa-home"></i> HOME</a>
+  <a href="index.html"class="active"><i class="fa fa-user"></i> ABOUT US</a>
+  <a href="photos.html"><i class="fa fa-camera"></i> GALLERY</a>
+  <a href="sosial.html"><i class="fa fa-phone"></i> CONTACT US</a>
+  <a href="comment.html" ><i class="fa fa-envelope"></i> FEEDBACK</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+
+
+	<div class="img-container">
+	<br>
+	<br>
+	<h1><p id="para1"><b>MY PROFILE</b></p></h1>
+	<br>
+	<img class="img" src="./mypicture.jpeg" alt="mypicture" width=230 height=230>
+	<br>
+	<ul>
+	<p><li><b>Name : </b>  Syahmi Nasuha binti Mohd Sauti</li></p>
+	<p><li><b>Student ID : </b>  2018660768</li></b>
+	<p><li><b>Class : </b>  CSC2304B2</li></p>
+	<p><li><b>Age : </b>  21 years-old</li></p>
+	<p><li><b>Ambition : </b>  Businesswoman</li></p>
+	<p><li><b>Hobby : </b> Playing Mobile Legends game</li></p>Please enjoy my gameplay video</p>
+	<video width="320" height="240" controls>
+	<source src="vid1.mp4" type="video/mp4">
+	<source src="vid1.ogg" type="video/ogg">
+	</video>
+	<p><li><b>Thing I like the most :  </b> Flower </li></p>
+	<p><li><b>Thing I hate the most :  </b> Lizard </li></p>
+	<p><li><b>How much I like programming:</b> 70%</li></p>
+	<p><li><b>Sibling : </b> 2</li></p>
+	<p><li><b>Families : </b> <ol><li>Mohd Sauti bin osman</li><li>Norhayati binti Ishak</li><li>Baihaqi bin Mohd Sauti</li></ol></li></p>
+	<p><li><b>Address : </b>  No 304, kampung Selising, 16800 Pasir Puteh, Kelantan.</li></p>
+	<p><li><b>Email :</b>  Syahmin4@gmail.com</li></p>  
+	<br>
+	<br>
+	<br>
+	</ul>
+	</div>
+<div class="b">
+<p style="font-size:15px; color:white";>Click the button to print this current page</p>
+<button onclick="window.print()">Print </button>
+	<br>
+	<br>
+	<br>
+</div>
+<br>
+<>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
+</html>
